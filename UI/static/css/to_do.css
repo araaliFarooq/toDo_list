@@ -114,11 +114,11 @@ a:hover{
     margin:0;
     padding:0;
     overflow: hidden;
-    background-image:url(../images/bg.jpg);
+    background-image:url(../images/td_list.jpg);
     background-attachment: fixed;
-    background-position: center;
+   
     background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 
@@ -130,7 +130,7 @@ a:hover{
     margin:0;
     height:77px;
     width: 100%;
-    border-bottom: 1px solid #7f2aff;
+    border-bottom: 1px solid #0d67b7;
     position: fixed;
 }
 .navigation{
@@ -173,12 +173,12 @@ ul li a{
     color:#1d1d1d;
     display:block;
     padding:30px 10px;
-    width:110px;
+    width:85px;
     text-align:center;
 }
 ul li a:hover{
     color:#fff;
-    background-color: #7f2aff;
+    background-color: #0d67b7;
     transition: 0.5s;
 }
 
@@ -236,7 +236,7 @@ ul li a:hover{
 }
 .button{
     border: none;
-    background: #7f2aff;
+    background: #0d67b7;
     border-radius:25px;
     color: #fff;
     font-size: 12px;
@@ -311,16 +311,16 @@ ul li a:hover{
 }
 .former .input-box input:focus,
 .former .input-box input:valid {
-    border-bottom: 0.5px solid #7f2aff;
+    border-bottom: 0.5px solid #0d67b7;
     transition: 0.5s;
 }
 .former .input-box textarea:focus,
 .former .input-box textarea:valid {
-    border-bottom: 0.5px solid #7f2aff;
+    border-bottom: 0.5px solid #0d67b7;
 }
 .former .input-box input[type="submit"] {
     border: none;
-    background: #7f2aff;
+    background: #0d67b7;
     border-radius:25px;
     color: #fff;
     font-weight: bold;
@@ -345,7 +345,7 @@ ul li a:hover{
     text-align: center;
     width: 45%;
     height: 330px;
-    background-color: #7f2aff;
+    background-color: #0d67b7;
 }
 .profile_card .right{
     float: right;
@@ -359,7 +359,7 @@ ul li a:hover{
 }
 .cont_name{
     font-size: 35px;
-    color: #fff;
+    color: #000000;
 }
 .entries{
     font-size:20px;
@@ -369,7 +369,7 @@ ul li a:hover{
 .holder{
     border: none;
     background: #E0E0E0;
-    color: #202020;
+    color: #0d67b7;
     font-size: 14px;
     margin:0;
     padding: 12px;
@@ -391,5 +391,5 @@ footer{
     clear: both;
     text-align: center;
     padding-top:27px;
-    background:#fbf9f966;
+    background:#fbf9f9b3;
 }
