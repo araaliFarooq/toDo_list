@@ -11,7 +11,7 @@ html, body{
     
 }
 
-.forquests .a{
+.fortasks .a{
     color: #bd99f5;
 }
 
@@ -183,7 +183,7 @@ ul li a:hover{
 }
 
 
-/* ---- question card layout ----   */
+/* ---- taskion card layout ----   */
 .containa{
     background: url(../images/bg.jpg);
     background-attachment: fixed;
@@ -192,14 +192,14 @@ ul li a:hover{
     background-size: cover;
     overflow: hidden;
 }
-.question{
+.taskion{
     width:65%;
     margin: 100px auto 0;
 }
-.question .quest_card{
+.taskion .task_card{
     display:inline-table;
 }
-.quest_card {
+.task_card {
     background: #fff;
     padding: 12px 20px;
     border: 1px solid #ddd;
@@ -207,30 +207,30 @@ ul li a:hover{
     margin: 10px;
     width:100%;
 }
-.quest-data {
+.task_data {
     padding-bottom: 5px;
     margin-bottom: 0;
     border-bottom: 1px solid #e3e3e3;
 }
-.quest-data a:hover {
+.task_data a:hover {
     color: #1d1d1d;
     text-decoration: none;
 }
-.quest-title {
+.task-title {
     font-size: 20px;
     margin:20px 0;
 }
-.quest-title a:hover {
+.task-title a:hover {
     color: #1d1d1d;
     text-decoration: none;
 }
-.quest-content {
+.task-content {
     color: #000;
     font-size: 13px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e3e3e3;
 }
-.quest-foot {
+.task-foot {
     padding-bottom: 5px;
     margin-bottom: 0;
 }
@@ -244,6 +244,17 @@ ul li a:hover{
     outline: none;
     box-sizing: border-box;
 }
+.button_del{
+    border: none;
+    background: red;
+    border-radius:25px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px;
+    outline: none;
+    box-sizing: border-box;
+}
+
 .tag{
     border: none;
     background: #E0E0E0;
@@ -257,7 +268,7 @@ ul li a:hover{
 }
 
 
-/* ---- quest page css layout ----   */
+/* ---- task page css layout ----   */
 .delete{
     float:right;
     border: none;
@@ -271,8 +282,7 @@ ul li a:hover{
     box-sizing: border-box;
 }
 
-
-/* ---- layout css for the ask question page ----   */
+/* ---- layout css for the ask taskion page ----   */
 .contain{
     background:url(../images/bg.jpg);
     background-attachment: fixed;
@@ -280,7 +290,7 @@ ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.quest_box{
+.task_box{
     margin: 120px auto;
     text-align: center;
     /*background:#fbf9f966;*/
@@ -376,7 +386,7 @@ ul li a:hover{
     outline: none;
     box-sizing: border-box;
 }
-.forquests{
+.fortasks{
     font-size: 13px;
     margin-left: 27px;
 }
